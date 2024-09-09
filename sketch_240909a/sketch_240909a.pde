@@ -1,0 +1,10 @@
+size(640, 480);
+//fullScreen();
+//point(320, 240);
+background(255);
+//line(150, 240, 640 - 150, 240);
+//ellipseMode(CENTER);
+//line(320, 240, 480, 120);
+circle(150, 240, 100);
+rectMode(CENTER);
+square(640 - 150, 240, 100);
