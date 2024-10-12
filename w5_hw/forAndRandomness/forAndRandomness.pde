@@ -36,10 +36,11 @@ void draw() {
     fill(0 * noiseVal);
     noFill();
     stroke(255);
+    strokeJoin(tileNum);
     circle(centerX, centerY, tileSize * 0.8);
     pushMatrix();
     translate(centerX, centerY);
-    //rotate(radians(360 * noiseVal));
+    rotate(radians(-90 * noiseVal));
     rotate(atan2(mouseY - height * 0.5, mouseX - width * 0.5));
     beginShape();
     for (int n = 0; n < tileNum; n++) {
