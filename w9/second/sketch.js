@@ -1,7 +1,7 @@
-function setup() {}
+function setup() {
+  fullscreen();
+}
 
 function draw() {
   background(220);
 }
-
-function showAlert() {}
