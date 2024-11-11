@@ -1,8 +1,9 @@
+html,
 body {
-  background-color: rgb(20, 20, 20);
-  height: 100vh;
-  display: flex;
-  overflow: hidden;
-  align-items: center;
-  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
 }
