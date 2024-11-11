@@ -1,6 +1,6 @@
 function setup() {
   fullscreen(display);
-  background(220);
+  background(0);
 }
 
 function draw() {}
