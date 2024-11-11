@@ -1,5 +1,3 @@
-let circle = 12;
-
 function setup() {
   createCanvas(800, 600);
 }
