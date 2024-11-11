@@ -1,7 +1,7 @@
 let angle;
 
 function setup() {
-  createCanvas(710, 400);
+  createCanvas(windowWidth, windowHeight);
   colorMode(HSB);
   angleMode(DEGREES);
 }
