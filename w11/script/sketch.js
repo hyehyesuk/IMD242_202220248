@@ -17,13 +17,17 @@ function setup() {
 }
 
 function draw() {
-  backorund(255);
+  backorund(0);
   //Image(cp, 0, 0, width, height);
   for (let y = 0; y < cpH; y++) {
     for (let x = 0; x < cpW; x++) {
       let colour = cp.get(x, y);
-      FileList(colour[0], colour[1], colour[2]);
-      Circle(10 * x, 10 * y, 10);
+      let brightness = brightness(colour);
+      let diameter = map(brightness, 0, 255, 0, 20);
+      Fill(255);
+      Circle(10 * x, 10 * y + 5, diameter);
+      // FileList(colour[0], colour[1], colour[2]);
+      // Circle(10 * x, 10 * y + 5, 10);
     }
   }
 }
